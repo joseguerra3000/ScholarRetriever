@@ -30,10 +30,15 @@ Usage Examples
 
 Retrieve results from the Google Scholar Profiles search page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code:
+
 .. code-block:: python
 
     # Pending 
 
+
+Output:
 
 .. code-block:: text
 
@@ -41,6 +46,8 @@ Retrieve results from the Google Scholar Profiles search page
 
 Retrieve basic information about an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code:
 
 .. code-block:: python
 
@@ -82,6 +89,8 @@ Retrieve basic information about an author
         for i in info['author']['interests']:
             print(' - ' + i['title'])
 
+Output:
+
 .. code-block:: text
 
     Author Info:
@@ -96,6 +105,8 @@ Retrieve basic information about an author
 
 Retrieve articles from an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code:
 
 .. code-block:: python
 
@@ -150,6 +161,8 @@ Retrieve articles from an author
     print('JSON with all information:')
     print(json.dumps(art, indent=2, ensure_ascii=False))
 
+
+Output:
 
 .. code-block:: text
 
@@ -367,6 +380,7 @@ Retrieve articles from an author
 Retrieve Co-authors from an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Code:
 .. code-block:: python
 
     import json
@@ -394,6 +408,8 @@ Retrieve Co-authors from an author
         # Print the co-authors' information in JSON format with formatting and without escaping non-ASCII characters
         print(json.dumps(info, indent=2, ensure_ascii=False))
 
+
+Output: 
 
 .. code-block:: text
 
