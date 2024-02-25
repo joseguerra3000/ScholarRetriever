@@ -42,7 +42,7 @@ Retrieve results from the Google Scholar Profiles search page
 Retrieve basic information about an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: ./src/examples/retrieve_author_articles
+.. include:: retrieve_author_articles.rst
 
 
 
