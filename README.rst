@@ -42,16 +42,9 @@ Retrieve results from the Google Scholar Profiles search page
 Retrieve basic information about an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: python
-
-    # code 
-
-.. include:: src/examples/retrieve_author_articles.rst
+.. include:: ./src/examples/retrieve_author_articles
 
 
-.. literalinclude:: src/examples/retrieve_author_info_print.py
-    :language: python
-    
 
 .. code-block:: text
 
