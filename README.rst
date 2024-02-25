@@ -51,6 +51,7 @@ Retrieve basic information about an author
 
 .. literalinclude:: src/examples/retrieve_author_info_print.py
     :language: python
+    
 
 .. code-block:: text
 
