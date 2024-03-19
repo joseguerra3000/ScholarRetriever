@@ -102,14 +102,6 @@ class HttpHeadersTemplate(object):
 			'User-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
 		},
 
-		# elinks
-		{
-    		"Accept": "*/*", 
-			"Accept-Language": "es", 
-			"Host": "", 
-			"User-Agent": "ELinks/0.13.1 (textmode; Linux 5.4.0-169-generic x86_64; 80x24-2)", 
-		},
-
 		# Edge
 		{
 			'Authority': 'scholar.google.com',
