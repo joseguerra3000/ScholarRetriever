@@ -227,6 +227,7 @@ Retrieve Co-authors from an author
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Code:
+
 .. code-block:: python
 
     import json
