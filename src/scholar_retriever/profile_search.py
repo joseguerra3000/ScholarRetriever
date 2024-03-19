@@ -210,7 +210,7 @@ class ProfileSearch(ScholarWebRetriever, PaginateBase):
         """
         
         self._update_pagination()
-        if self._after_author is None:
+        if self._before_author is None:
             return False, 'First page'
         
         self.add_params(
